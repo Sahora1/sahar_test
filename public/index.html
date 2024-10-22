@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Sahar Salem Dashboard</title>
+  </head>
+  <body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <a href="#" class="logo">
+        <i class='bx bx-code-alt'></i>
+        <div class="logo-name"><span>Sahar</span>Salem</div>
+      </a>
+      <ul class="side-menu">
+        <li class="active"><a href="#"><i class='bx bx-home-heart'></i>Home</a></li>
+        <li><a href="#"><i class='bx bx-package'></i>Orders</a></li>
+        <li><a href="#"><i class='bx bx-star'></i>Reviews</a></li>
+        <li><a href="#"><i class='bx bx-user-circle'></i>Clients</a></li>
+        <li><a href="#"><i class='bx bx-buildings' ></i>Companies</a></li>
+        <li><a href="#"><i class='bx bx-cable-car'></i>Trucks</a></li>
+        <li><a href="#"><i class='bx bx-medal'></i>Brands</a></li>
+        <li><a href="#"><i class='bx bx-globe'></i>Cities</a></li>
+        <li><a href="#"><i class='bx bx-spreadsheet'></i>Content Management</a></li>
+        <li><a href="#"><i class='bx bx-shield'></i>Permissions</a></li>
+        <li><a href="#"><i class='bx bx-cog'></i>System Management</a></li>
+        <li><a href="#"><i class='bx bx-world'></i>Translation</a></li>
+        <li><a href="#"><i class='bx bx-message-rounded-detail'></i>Contact</a></li>
+        <li><a href="#"><i class='bx bx-smile'></i>Client Review</a></li>
+      </ul>
+      <ul class="side-menu">
+        <li>
+          <a href="#" class="logout">
+            <i class='bx bx-log-out-circle' ></i>
+            Logout
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- End of Sidebar -->
+
+    <!-- Main Content -->
+    <div class="content">
+      <!-- Navbar -->
+       <nav>
+        <i class='bx bx-menu'></i>
+        <form action="#">
+          <div class="form-input">
+            <input type="search" placeholder="Search...">
+            <button class="search-btn" type="submit"><i class='bx bx-search'></i></button>
+          </div>
+        </form>
+        <input type="checkbox" id="theme-toggle" hidden>
+        <label for="theme-toggle" class="theme-toggle"></label>
+        <a href="#" class="notif">
+          <i class='bx bx-bell'></i>
+          <span class="count">12</span>
+        </a>
+        <a href="#" class="profile">
+          <img src="images/KFC.png">
+        </a>
+       </nav>
+
+       <!-- End of Navbar -->
+
+       <main>
+        <div class="header">
+          <div class="left">
+            <h1>Dashboard Overview</h1>
+            <p>22 Oct 2024</p><br>
+            <ul class="breadcrumb">
+              <li><a href="#">
+                Home
+              </a></li>
+              /
+              <li><a href="#" class="active">Orders</a></li>
+            </ul>
+          </div>
+          <a href="#" class="report">
+              <i class='bx bx-cloud-download'>
+              </i>
+            <span>Download CSV</span>
+          </a>
+        </div>
+
+        <!-- Insights -->
+
+        <ul class="insights">
+          <li>
+            <i class='bx bx-spreadsheet'></i>
+          <span class="info">
+            <h3>
+              1000
+            </h3>
+            <p>Order Number</p>
+          </span>
+          <li><i class='bx bx-buildings'></i>
+          <span class="info">
+            <h3>
+              1000000
+            </h3>
+            <p>Company Number</p>
+          </span>
+        </li>
+          <li><i class='bx bx-user-circle'></i>
+          <span class="info">
+            <h3>
+              500
+            </h3>
+            <p>Drivers Number</p>
+          </span>
+        </li>
+          <li><i class='bx bx-dollar-circle'></i>
+          <span class="info">
+            <h3>
+              500
+            </h3>
+            <p>Total Sales</p>
+          </span>
+        </li>
+        </ul>
+        <!-- End of Insights -->
+
+        <div class="bottom-data">
+          <div class="orders">
+            <div class="header">
+              <i class='bx bx-receipt'></i>
+              <h3>TOP 5 Companies</h3>
+              <i class='bx bx-filter'></i>
+              <i class='bx bx-search'></i>
+            </div>
+            <table>
+              <thead>
+                <tr>
+                  <th>Company Name</th>
+                  <th>Order Qty</th>
+                  <th>Amount</th>
+                </tr>
+              </thead>
+              <body>
+                <tr>
+                  <td>
+                    <img src="images/Gillette.jpg">
+                    <p>Gillette</p>
+                  </td>
+                  <td>5000</td>
+                  <td><span class="amount">50000 SR</span></td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="images/LouisVuitton.jpg">
+                    <p>Louis Vuitton</p>
+                  </td>
+                  <td>3000</td>
+                  <td><span class="amount">50000 SR</span></td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="images/Johnson.jpg">
+                    <p>Johnson & Johnson</p>
+                  </td>
+                  <td>2000</td>
+                  <td><span class="amount">50000 SR</span></td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="images/Nintendo.png">
+                    <p>Nintendo</p>
+                  </td>
+                  <td>1000</td>
+                  <td><span class="amount">50000 SR</span></td>
+                </tr>
+              </body>
+            </table>
+          </div>
+
+          <!--Reminders -->
+          <div class="reminders">
+            <div class="header">
+              <i class='bx bx-note'></i>
+              <h3>Reminders</h3>
+              <i class='bx bx-filter'></i>
+              <i class='bx bx-plus'></i>
+            </div>
+            <ul class="task-list">
+              <li class="yellow">
+                <div class="task-title">
+                  <i class='bx bx-time'></i>
+                  <p>Waiting for Loading</p>
+                </div>
+                <i class='bx bx-dots-vertical-rounded'></i>
+              </li>
+              <li class="yellow">
+                <div class="task-title">
+                  <i class='bx bx-timer'></i>
+                  <p>Waiting for Arrive</p>
+                </div>
+                <i class='bx bx-dots-vertical-rounded'></i>
+              </li>
+              <li class="green">
+                <div class="task-title">
+                  <i class='bx bx-check-circle'></i>
+                  <p>Completed</p>
+                </div>
+                <i class='bx bx-dots-vertical-rounded'></i>
+              </li>
+              <li class="red">
+                <div class="task-title">
+                  <i class='bx bx-x-circle'></i>
+                  <p>Cancelled</p>
+                </div>
+                <i class='bx bx-dots-vertical-rounded'></i>
+              </li>
+              <li class="green">
+                <div class="task-title">
+                  <i class='bx bx-repeat'></i>
+                  <p>Order Repeated</p>
+                </div>
+                <i class='bx bx-dots-vertical-rounded'></i>
+              </li>
+              <li class="blue">
+                <div class="task-title">
+                  <i class='bx bx-message-square-dots'></i>
+                  <p>Commission</p>
+                </div>
+                <i class='bx bx-dots-vertical-rounded'></i>
+              </li>
+            </ul>
+          </div>
+
+          <!-- End of Reminders -->
+
+        </div>
+
+       </main>
+
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
